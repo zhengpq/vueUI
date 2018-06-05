@@ -25,6 +25,14 @@ module.exports = {
   },
   // add your custom rules here
   rules: {
+    // 缩进
+    'indent': ['error',4],
+    //分号
+    'semi': [2,'never'],
+    // 引号
+    'quote':['error', 'single'],
+    'generator-star-spacing': 0,
+    'babel/generator-star-spacing': 1,
     // don't require .vue extension when importing
     'import/extensions': ['error', 'always', {
       js: 'never',
