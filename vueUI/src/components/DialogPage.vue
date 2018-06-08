@@ -14,7 +14,6 @@
 import Vue from 'vue'
 import dialog from './Dialog/index'
 Vue.use(dialog)
-
 export default {
     name: 'Dialog',
     methods: {
@@ -27,7 +26,6 @@ export default {
                 btnTextDefault: 'Cancel',
                 btnTextPrimary: 'Ok',
             })
-            console.log(this.$options)
         },
         ios2() {
             this.$dialog({

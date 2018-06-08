@@ -38,8 +38,6 @@ export default {
             show: false,
         }
     },
-    computed: {
-    },
     methods: {
         finish() {
             this.show = false
@@ -54,6 +52,7 @@ export default {
     destroyed() {
         this.$el.parentNode.removeChild(this.$el)
         setTimeout(() => {
+            console.log(this.$alert)
             this.$alert({
                 title: 'Hello'
             })

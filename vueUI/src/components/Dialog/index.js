@@ -22,6 +22,7 @@ const Dialog = (options) => {
     DialogInstane.vm = DialogInstane.$mount()
     DialogInstane.dom = DialogInstane.vm.$el
     document.body.appendChild(DialogInstane.dom)
+    console.log(DialogInstane)
     return DialogInstane.vm
 }
 
