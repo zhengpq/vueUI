@@ -31,10 +31,6 @@
 </template>
 
 <script>
-import Vue from 'vue'
-import alert from '../Alert/index'
-
-Vue.use(alert)
 export default {
     name: 'Dialog',
     data() {

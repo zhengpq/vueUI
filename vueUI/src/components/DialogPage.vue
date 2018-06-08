@@ -27,6 +27,7 @@ export default {
                 btnTextDefault: 'Cancel',
                 btnTextPrimary: 'Ok',
             })
+            console.log(this.$options)
         },
         ios2() {
             this.$dialog({

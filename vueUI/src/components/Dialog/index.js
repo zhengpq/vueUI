@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import dialog from './Dialog'
 import alert from '../Alert/index'
+Vue.use(alert)
 
 const DialogConstructor = Vue.extend(dialog)
-DialogConstructor.prototype.alert = alert
 let index = 0
 const Dialog = (options) => {
     const id = index++
